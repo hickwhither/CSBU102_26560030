@@ -16,11 +16,11 @@ main:
     addi $s2, $zero, 1475
     addi $s3, $zero, 1640
 
-    sub $t0, $s1, $s0 # >>> usage1 = reading1 - reading0
-    sub $t1, $s2, $s1 # >>> usage2 = reading2 - reading1
-    sub $t2, $s3, $s2 # >>> usage3 = reading3 - reading2
+    sub $t0, $s1, $s0 # usage1 = reading1 - reading0
+    sub $t1, $s2, $s1 # usage2 = reading2 - reading1
+    sub $t2, $s3, $s2 # usage3 = reading3 - reading2
 
-    # >>> total = usage1 + usage2 + usage3   (two add instructions)
+    # total = (usage1 + usage2) + usage3
     add $t3, $t0, $t1 # total = usage1 + usage2
     add $t3, $t3, $t2 # total = total + usage3
 
