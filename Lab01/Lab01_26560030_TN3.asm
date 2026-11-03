@@ -1,4 +1,4 @@
-# energy used by a household (fictitious readings, kWh)
+# Bui Thieu Khiem - 26560030 - Calculating energy used by a household (fictitious readings, kWh)
 # Variable   Register
 # reading0   $s0   start of month 1
 # reading1   $s1   start of month 2

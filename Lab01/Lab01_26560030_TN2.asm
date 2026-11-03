@@ -1,4 +1,4 @@
-# Listing 4 - translating statements
+# Bui Thieu Khiem - 26560030 - Listing 4 translating statements
 .text
 .globl main
 main:
