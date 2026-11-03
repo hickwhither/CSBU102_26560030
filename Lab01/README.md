@@ -1,1 +1,3 @@
-hello
+# CSBU103.R11.KHBC LAB1
+- ID: 26560030
+- Name: Bùi Thiệu Khiêm
